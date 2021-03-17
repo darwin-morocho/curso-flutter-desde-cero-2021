@@ -1,0 +1,7 @@
+{
+  "prettier.printWidth": 120,
+  "dart.flutterSdkPaths": [
+    "/Users/darwin/fvm/versions"
+  ],
+  "dart.flutterSdkPath": "/Users/darwin/fvm/versions/2.0.1"
+}

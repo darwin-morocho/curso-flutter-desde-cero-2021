@@ -1,0 +1,26 @@
+[
+    {
+        "id": 123,
+        "name": "Tacos Full 5 xcepteur",
+        "price": 9.99,
+        "rate": 4.5,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "preview": "https://image.freepik.com/foto-gratis/alto-angulo-sabroso-tacos-mesa-madera_23-2148629357.jpg"
+    },
+    {
+        "id": 124,
+        "name": "Duis aute irure xcepteur",
+        "price": 25,
+        "rate": 4.8,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "preview": "https://image.freepik.com/foto-gratis/tacos-carne-verduras_1339-69822.jpg"
+    },
+    {
+        "id": 125,
+        "name": "Excepteur sint occaecat",
+        "price": 5,
+        "rate": 5,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "preview": "https://image.freepik.com/foto-gratis/tacos-mexicanos-carne-res-salsa-tomate-salsa_2829-14149.jpg"
+    }
+]
