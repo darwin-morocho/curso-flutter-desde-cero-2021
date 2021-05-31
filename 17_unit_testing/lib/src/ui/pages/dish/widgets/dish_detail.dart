@@ -16,8 +16,10 @@ class DishDetail extends StatelessWidget {
   }) : super(key: key);
 
   void _toggleFavorite(BuildContext context) {
+    print("_toggleFavorite");
     final homeController = Get.i.find<HomeController>();
     final controller = context.read<DishController>();
+
     if (!controller.isFavorite) {
       final SnackBar snackBar = SnackBar(
         content: Text(
@@ -28,6 +30,7 @@ class DishDetail extends StatelessWidget {
       );
       ScaffoldMessenger.of(context).showSnackBar(snackBar);
     }
+
     controller.toggleFavorite();
     homeController.toggleFavorite(controller.dish);
   }
@@ -64,6 +67,7 @@ class DishDetail extends StatelessWidget {
               ),
               SizedBox(width: 10),
               CupertinoButton(
+                key: Key('add-to-favorite-btn'),
                 padding: EdgeInsets.all(10),
                 child: SvgPicture.asset(
                   'assets/pages/home/favorite.svg',

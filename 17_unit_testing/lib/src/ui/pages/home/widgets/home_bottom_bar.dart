@@ -58,6 +58,7 @@ class BottomBarTab extends StatelessWidget {
       ),
     );
     return Tab(
+      key: Key(item.label),
       icon: item.badgeCount > 0
           ? Badge(
               badgeContent: Text(
